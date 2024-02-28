@@ -17,7 +17,7 @@ def gen_cli_args():
     VERSION = importlib.metadata.version("netexec")
     CODENAME = "nxc4u"
 
-    parser = argparse.ArgumentParser(description=f"""
+    parser = argparse.ArgumentParser(description=r"""
      .   .
     .|   |.     _   _          _     _____
     ||   ||    | \ | |   ___  | |_  | ____| __  __   ___    ___
